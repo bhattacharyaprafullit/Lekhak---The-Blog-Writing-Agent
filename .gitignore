@@ -1,0 +1,29 @@
+# Virtual environment — this is the big one.
+# venv/ can be hundreds of MBs and is always machine-specific.
+# Anyone cloning your repo just runs: pip install -r requirements.txt
+venv/
+env/
+.venv/
+
+# Python cache files — auto-generated, never commit these
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables — NEVER commit this, it has your API keys
+.env
+
+# Generated blog markdown files — these are runtime outputs, not source code
+*.md
+# But keep README.md — it's important for GitHub
+!README.md
+
+# VS Code settings — personal to your machine
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
